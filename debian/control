@@ -1,0 +1,12 @@
+Source: python-pusher
+Section: python
+Priority: extra
+Maintainer: Joe Stump <joe@joestump.net>
+Build-Depends: cdbs, debhelper (>= 6), python (>= 2.5), python-support, python-setuptools
+Standards-Version: 3.8.3
+Homepage: https://github.com/sprintly/pusher_client_python
+
+Package: python-pusher
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python (>= 2.5)
+Description: Python lib for adding Pusher support into your application.
